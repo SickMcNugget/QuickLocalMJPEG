@@ -1,11 +1,9 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from io import BytesIO
 from socketserver import ThreadingMixIn
 import socketserver
 import threading
 import cv2
 import time
-from PIL import Image
 
 PORT = 8090
 
